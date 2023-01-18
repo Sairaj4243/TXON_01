@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home {
+    background-image: url("https://www.hdnicewallpapers.com/Walls/Big/Cricket/Cricket_World_Cup_2019_All_Captains_4K_Wallpaper.jpg");
+    background-size: cover;
+    height: 120vh;
+    width: 150vw;
+    text-align: center;
+
+}
+
+.box1 {
+    background-color: #133c47;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Caveat";
+}
+
+.box {
+    background-color: #4dd2ff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cardddd {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.text-dec {
+    text-decoration: underline;
+}
+
+.text1 {
+    font-family: "Times New Roman";
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text {
+    font-family: "Roboto";
+    color: black;
+    text-align: center;
+}
+
+.butn1 {
+    text-align: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.team-logo_bg {
+    background-color: #383380;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.teams {
+    text-align: center;
+}
+
+.team-logo-text {
+    font-family: "Playfair Display";
+    color: #c2b9c4;
+}
+
+.team-info-ind {
+    background-image: url("https://www.wallpapers.net/web/wallpapers/free-download-indian-flag-wallpaper-for-desktop-mobiles/2436x1125.jpg");
+    background-size: cover;
+    height: 140vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-aus {
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.j0WBjarTF2-2HkIQwqllYQHaFj&pid=Api&P=0");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-eng {
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.7c7sE_NA6daAKKUl_nqwVwHaEO&pid=Api&P=0");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-pak {
+    background-image: url("https://cdn.wallpapersafari.com/81/44/BQzPXf.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-new {
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.Zp7eO413lEt5XRKgtW2LvgHaFj&pid=Api&P=0");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-sri {
+    background-image: url("https://wallpapercave.com/wp/wp4215005.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-afg {
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.yhbH-5BNdhWgPlXA9tcKpAHaFs&pid=Api&P=0");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-bang {
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.o0x_vHXv2i5CCuzf73ifJAHaKN&pid=Api&P=0");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-sout {
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.m8nZaSCtXwgtvuYsIc1CVAHaFW&pid=Api&P=0");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-west {
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.XcImCTomdNecP2qoZWVWsgHaHa&pid=Api&P=0");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-ire {
+    background-image: url("  https://tse1.mm.bing.net/th?id=OIP.PjDSgzLdNFpMlMKgpaYZSQAAAA&pid=Api&P=0");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-zim {
+    background-image: url(" https://ak.picdn.net/shutterstock/videos/1052039353/thumb/1.jpg");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.player-img {
+    height: 50px;
+    width: 50px;
+}
+
+.butn {
+    border-radius: 10px;
+    background-color: white;
+    color: #000000;
+}

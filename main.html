@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="home d-flex flex-column justify-content-end">
+            <div class="cardddd">
+                <h1 class="text1">ICC WORLD CRICKET CHAMPIONSHIP 2023</h1>
+                <p class="text1">One Team One Fight Cheer Up For Our Team</p>
+                <div>
+                    <button class="butn" onclick="display('sectionTeam')">KNOW MORE</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="sectionTeam">
+        <div>
+            <h1 class="text">TEAMS</h1>
+            <p class="text">Click on any team</p>
+            <div class="d-flex flex-column justify-content-center">
+                <div class=" team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionInd')">
+                    <h2 class="team-logo-text">INDIA</h2>
+                    <img src="https://2.bp.blogspot.com/-fYj9vefEAZs/T8sALfRN2vI/AAAAAAAAAU4/3q9znTy5J2o/s1600/india-cricket-logo.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionAus')">
+                    <h2 class="team-logo-text">AUSTRALIA</h2>
+                    <img src="https://adorecricket.com/wp-content/uploads/Cricket_Australia_logo.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionEng')">
+                    <h2 class="team-logo-text">ENGLAND</h2>
+                    <img src="https://i.pinimg.com/originals/a2/ec/0a/a2ec0ad0d9064ac6e28773122ba9d335.jpg" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionPak')">
+                    <h2 class="team-logo-text">PAKISTAN</h2>
+                    <img src=" https://3.bp.blogspot.com/_YHQcNiOaCjo/SrMrbidrAMI/AAAAAAAABjk/HfSMwmBC3jI/s200/Pakistan-Cricket-Logo.jpg" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionNew')">
+                    <h2 class="team-logo-text">NEW ZEALAND</h2>
+                    <img src="https://i.pinimg.com/originals/7d/28/f6/7d28f6dfe98cd3f95b42ff987056bb01.jpg" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionSri')">
+                    <h2 class="team-logo-text">SRI LANKA</h2>
+                    <img src="https://english.siyathanews.lk/wp-content/uploads/sites/4/2018/04/sri-lanka-cricket.jpg" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionAfg')">
+                    <h2 class="team-logo-text">AFGHANISTAN</h2>
+                    <img src="https://daho8y5ys694e.cloudfront.net/wp-content/uploads/2020/07/28092125/ACB.jpg" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionBang')">
+                    <h2 class="team-logo-text">BANGLADESH</h2>
+                    <img src=" https://www.kindpng.com/picc/m/279-2797016_bangladesh-cricket-png-image-free-download-searchpng-bangladesh.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionSout')">
+                    <h2 class="team-logo-text">SOUTH AFRICA</h2>
+                    <img src=" https://english.cdn.zeenews.com/sites/default/files/2016/03/16/470182-logo-csa.jpg" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionWest')">
+                    <h2 class="team-logo-text">WEST INDIES</h2>
+                    <img src=" https://a4.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fcricket%2F500%2F4.png" class="logo" />
+                </div>
+                <div class=" team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionIre')">
+                    <h2 class="team-logo-text">IRELAND</h2>
+                    <img src=" https://cdn.bleacherreport.net/images/team_logos/328x328/ireland_cricket.png" class="logo" />
+                </div>
+                <div class=" team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionZim')">
+                    <h2 class="team-logo-text">ZIMBABWE</h2>
+                    <img src=" http://2.bp.blogspot.com/-G7nyXicOUHQ/TfI1eQPwg4I/AAAAAAAACBY/o37jCQa4HuY/s400/Cricket-Zimbabwe-Logo1.jpg" class="logo" />
+                </div>
+            </div>
+            <div class="butn1">
+                <button class="butn" onclick="display('sectionHome')">BACK</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionInd">
+        <div class="team-info-ind">
+            <img src="https://2.bp.blogspot.com/-fYj9vefEAZs/T8sALfRN2vI/AAAAAAAAAU4/3q9znTy5J2o/s1600/india-cricket-logo.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionIndop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionInde')">Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionAus">
+        <div class="team-info-aus">
+            <img src="https://adorecricket.com/wp-content/uploads/Cricket_Australia_logo.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionAusop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionAuse')">Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionEng">
+        <div class="team-info-eng">
+            <img src="https://i.pinimg.com/originals/a2/ec/0a/a2ec0ad0d9064ac6e28773122ba9d335.jpg" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionEngop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionEnge')">playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionPak">
+        <div class="team-info-pak">
+            <img src=" https://3.bp.blogspot.com/_YHQcNiOaCjo/SrMrbidrAMI/AAAAAAAABjk/HfSMwmBC3jI/s200/Pakistan-Cricket-Logo.jpg" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionPakop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionPake')">Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionNew">
+        <div class="team-info-new">
+            <img src=" https://i.pinimg.com/originals/7d/28/f6/7d28f6dfe98cd3f95b42ff987056bb01.jpg" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionNewop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionNewe')">Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSri">
+        <div class="team-info-sri">
+            <img src=" https://english.siyathanews.lk/wp-content/uploads/sites/4/2018/04/sri-lanka-cricket.jpg" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionSriop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionSrie')">Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionAfg">
+        <div class="team-info-afg">
+            <img src="https://daho8y5ys694e.cloudfront.net/wp-content/uploads/2020/07/28092125/ACB.jpg" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionAfgop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionAfge')">Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionBang">
+        <div class="team-info-bang">
+            <img src="https://www.kindpng.com/picc/m/279-2797016_bangladesh-cricket-png-image-free-download-searchpng-bangladesh.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionBangop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionBange')">Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSout">
+        <div class="team-info-sout">
+            <img src=" https://english.cdn.zeenews.com/sites/default/files/2016/03/16/470182-logo-csa.jpg" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionSoutop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionSoute')">Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionWest">
+        <div class="team-info-west">
+            <img src=" https://a4.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fcricket%2F500%2F4.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionWestop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionWeste')"> Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionIre">
+        <div class="team-info-ire">
+            <img src=" https://cdn.bleacherreport.net/images/team_logos/328x328/ireland_cricket.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionIreop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionIree')"> Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionZim">
+        <div class="team-info-zim">
+            <img src=" http://2.bp.blogspot.com/-G7nyXicOUHQ/TfI1eQPwg4I/AAAAAAAACBY/o37jCQa4HuY/s400/Cricket-Zimbabwe-Logo1.jpg" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionZimop')">Overall players</h4>
+            <h4 class="text-dec" onclick="display('sectionZime')"> Playing 11</h4>
+            <button class="butn" onclick="display('sectionTeam')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionIndop">
+        <div class="team-info-ind">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Rohit Sharma</h4>
+                <h4>-> Jasprit Bumrah</h4>
+                <h4>-> Ishan Kishan </h4>
+                <h4>-> Surya Kumar yadav</h4>
+                <h4>-> Yuzendra Chahal</h4>
+                <h4>-> Rishabh Pant</h4>
+                <h4>-> Virat Kohli</h4>
+                <h4>-> Sanju samson</h4>
+                <h4>-> Mohummad Siraj</h4>
+                <h4>-> Shersys Iyer</h4>
+                <h4>-> Ravindra Jadeja</h4>
+                <h4>-> Shubhman Gill</h4>
+                <h4>-> Shikhar Dhawan</h4>
+                <h4>-> Hardik Pandya</h4>
+                <h4>-> Harshal Patel</h4>
+                <h4>-> Deepak Chahar</h4>
+                <h4>-> Arshdeep Shing</h4>
+                <h4>-> Axar Patel</h4>
+                <h4>-> KL Rahul</h4>
+                <h4>-> Axar Patel</h4>
+                <h4>-> Umran Malik</h4>
+            </div>
+            <button class="butn" onclick="display('sectionInd')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionAusop">
+        <div class="team-info-aus">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Aaron Finch</h4>
+                <h4>-> Steve Smith </h4>
+                <h4>-> David Warner</h4>
+                <h4>-> Marnus Labuschagne</h4>
+                <h4>-> Travis Head</h4>
+                <h4>-> Ben McDermott</h4>
+                <h4>-> Sam Heazlett</h4>
+                <h4>-> Jake Weatherald</h4>
+                <h4>-> Mitchell Marsh </h4>
+                <h4>-> Glenn Maxwell </h4>
+                <h4>-> Marcus Stoinis</h4>
+                <h4>-> Cameron Green </h4>
+                <h4>-> Ashton Agar </h4>
+                <h4>-> Daniel Sams</h4>
+                <h4>-> Alex Carey</h4>
+                <h4>-> Josh Inglis</h4>
+                <h4>-> Josh Philippe</h4>
+                <h4>-> Mitchell Starc</h4>
+                <h4>-> at Cummins</h4>
+                <h4>-> Josh Hazlewood</h4>
+            </div>
+            <button class="butn" onclick="display('sectionAus')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionEngop">
+        <div class="team-info-eng">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Jonny Bairstow</h4>
+                <h4>-> Jofra Archer</h4>
+                <h4>-> Jason Royr</h4>
+                <h4>-> Adil Rashid</h4>
+                <h4>-> Reece Topley</h4>
+                <h4>-> Alex Hales</h4>
+                <h4>-> Joe Root</h4>
+                <h4>-> Rashid Khan</h4>
+                <h4>-> Josh Butler</h4>
+                <h4>-> Chris Woakes</h4>
+                <h4>-> Sam Curran</h4>
+                <h4>-> David Willey</h4>
+                <h4>-> Harry Brook</h4>
+                <h4>-> Taimal Mills</h4>
+                <h4>-> Richard Gleason</h4>
+                <h4>-> Laim Livingston</h4>
+                <h4>-> Chris Jordan</h4>
+                <h4>Mark Wood</h4>
+            </div>
+            <button class="butn" onclick="display('sectionEng')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionPakop">
+        <div class="team-info-pak">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Shaheen Afraidi</h4>
+                <h4>-> Imam ul Huq</h4>
+                <h4>-> Fakhar Zaman</h4>
+                <h4>-> Babar Azam</h4>
+                <h4>-> Haidar Ali</h4>
+                <h4>-> Moh Rizwan</h4>
+                <h4>-> Naseem Shah</h4>
+                <h4>-> Khusdil Shah</h4>
+                <h4>-> Shadab Khan</h4>
+                <h4>-> Aftikar Ahmad</h4>
+                <h4>-> Moh Wasim</h4>
+                <h4>-> Usman Qudir</h4>
+                <h4>-> Moh Harris</h4>
+                <h4>-> Shanwaz Dahni</h4>
+                <h4>-> Moh Nawaz</h4>
+                <h4>-> Ashif Ali</h4>
+                <h4>-> Moh Hasnain</h4>
+                <h4>-> Haris Rouf</h4>
+                <h4>-> Shan Masood</h4>
+            </div>
+            <button class="butn" onclick="display('sectionPak')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionNewop">
+        <div class="team-info-new">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Kane Williamson</h4>
+                <h4>-> Adam Milne</h4>
+                <h4>-> Trent Boult</h4>
+                <h4>-> Kyle Jamieson</h4>
+                <h4>-> Deven conway</h4>
+                <h4>-> Marcus Stoinis</h4>
+                <h4>-> Martin Guptil</h4>
+                <h4>-> Mark Chapman</h4>
+                <h4>-> Michael Bracewell</h4>
+                <h4>-> Tim southee</h4>
+                <h4>-> Finn Allen</h4>
+                <h4>-> Lockie Ferguson</h4>
+                <h4>-> Glenn Phillips</h4>
+                <h4>-> Ish Sodhi</h4>
+                <h4>-> James Neesham</h4>
+                <h4>-> Daryl Mitchell</h4>
+                <h4>-> Mitchell Sentner </h4>
+            </div>
+            <button class="butn" onclick="display('sectionNew')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSriop">
+        <div class="team-info-sri">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Maheesh Theekshana</h4>
+                <h4>-> Ashen Bandara</h4>
+                <h4>-> Wanindu Hasaranga</h4>
+                <h4>-> Praveen Jayawickrema</h4>
+                <h4>-> Dasun Shanaka</h4>
+                <h4>-> Charith Asalanka</h4>
+                <h4>-> Jeffrey Vandersay</h4>
+                <h4>-> Kushal Parera</h4>
+                <h4>-> Pathum Nissanka</h4>
+                <h4>-> Lahiru Kumara</h4>
+                <h4>-> Danushka Gunathilaka</h4>
+                <h4>-> Dushmantha Chameera</h4>
+                <h4>-> Dinesh Chandimal</h4>
+                <h4>-> Chamika Karunaratne</h4>
+                <h4>-> A Dhananjaya</h4>
+                <h4>-> Bhanuka Rajapaksa</h4>
+                <h4>-> Kushal Mendis</h4>
+                <h4>-> Dhananjaya de silva</h4>
+                <h4>-> Pramod Madushan</h4>
+                <h4>-> Kamindu Mendis</h4>
+            </div>
+            <button class="butn" onclick="display('sectionSri')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionAfgop">
+        <div class="team-info-afg">
+            <div class="box">
+                <h1>Retained players</h1>
+                <h4>-> Rahmat Shah</h4>
+                <h4>-> Mohammad Nabi</h4>
+                <h4>-> Rahmanullah Gurbaz</h4>
+                <h4>-> Hazratullah Zazai </h4>
+                <h4>-> Usman Ghani</h4>
+                <h4>-> Mohammad Shahzad </h4>
+                <h4>-> Hashmatullah Shahidi </h4>
+                <h4>-> Asghar Afghan </h4>
+                <h4>-> Gulbadin Naib </h4>
+                <h4>-> Najibullah Zadran</h4>
+                <h4>-> Karim Janat </h4>
+                <h4>-> Rashid Khan </h4>
+                <h4>-> Mujeeb ur Rahman </h4>
+                <h4>-> Hamid Hassan</h4>
+                <h4>-> Farid Ahmed Malik</h4>
+                <h4>-> Naveen ul Haq</h4>
+                <h4>-> Sharafuddin Ashraf</h4>
+                <h4>-> Samiullah Shinwari</h4>
+                <h4>-> Dawlat Zadran</h4>
+                <h4>-> Fazal Haq Farooqi</h4>
+            </div>
+            <button class="butn" onclick="display('sectionAfg')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionBangop">
+        <div class="team-info-bang">
+            <div class="box">
+                <h1>-> Overall players</h1>
+                <h4>-> Nurul Hasan</h4>
+                <h4>-> Soumya Sarkar</h4>
+                <h4>-> Litton Das</h4>
+                <h4>-> Nasum Ahmed</h4>
+                <h4>-> Nazmul Hossain</h4>
+                <h4>-> Mehidy Hasan</h4>
+                <h4>-> Shakib Al Hasan</h4>
+                <h4>-> Afif Hossain</h4>
+                <h4>-> Mosaddek</h4>
+                <h4>-> Mustafizur Rahman</h4>
+                <h4>-> Sabbir Rahman</h4>
+                <h4>-> Taskin Ahmed</h4>
+                <h4>-> Yasir Ali</h4>
+                <h4>-> Ebadot Hossain</h4>
+                <h4>-> Hasan Mahmud</h4>
+                <h4>-> Mahmudullah</h4>
+                <h4>-> Mohummad Saifuddin</h4>
+                <h4>-> Tamim Iqbal</h4>
+                <h4>-> Mushfiqur Rahim</h4>
+                <h4>-> Rubel Hossain</h4>
+            </div>
+            <button class="butn" onclick="display('sectionBang')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSoutop">
+        <div class="team-info-sout">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Anrich Nortje</h4>
+                <h4>-> Kagisco Rabada</h4>
+                <h4>-> David Miller</h4>
+                <h4>-> Quinton de Kock</h4>
+                <h4>-> Heinrich Klaasen</h4>
+                <h4>-> Aiden Markram</h4>
+                <h4>-> Reeza Hendricks</h4>
+                <h4>-> A Phehlukwayo</h4>
+                <h4>-> Tabraiz Shamsi</h4>
+                <h4>-> Wayne Parnell</h4>
+                <h4>-> -> Macro Jansen</h4>
+                <h4>-> Dwaine Pretorius</h4>
+                <h4>-> Rillee Rossouw</h4>
+                <h4>-> Lungi Ngidi</h4>
+                <h4>-> R v Duseen</h4>
+                <h4>-> Temba Bavuma</h4>
+                <h4>-> Reeza Hendricks</h4>
+                <h4>-> Bajorn Fortuin</h4>
+                <h4>-> Tristan Stubbs</h4>
+            </div>
+            <button class="butn" onclick="display('sectionSout')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionWestop">
+        <div class="team-info-west">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Jason Holder</h4>
+                <h4>-> Shamarh Brooks</h4>
+                <h4>-> Rovman Powell</h4>
+                <h4>-> Alzari Joseph</h4>
+                <h4>-> Kyle Mayers</h4>
+                <h4>-> Obed Mccoy</h4>
+                <h4>-> Brandon King</h4>
+                <h4>-> Nicoles pooran</h4>
+                <h4>-> Rosten Cheez</h4>
+                <h4>-> Andre Russel</h4>
+                <h4>-> Even Lewis</h4>
+                <h4>-> Keron Polard</h4>
+                <h4>-> Fabian Allen </h4>
+                <h4>-> Shemran Hetmayer</h4>
+                <h4>-> Shai Hope</h4>
+            </div>
+            <button class="butn" onclick="display('sectionWest')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionIreop">
+        <div class="team-info-ire">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Andy Balbirnie</h4>
+                <h4>-> Mark Adair</h4>
+                <h4>-> Curtis Campher</h4>
+                <h4>-> Gareth Delany</h4>
+                <h4>-> George Dockrell</h4>
+                <h4>-> Stephen Doheny</h4>
+                <h4>-> Graham Hume</h4>
+                <h4>-> Tyrone Kane</h4>
+                <h4>-> Josh Little</h4>
+                <h4>-> Andy McBrine</h4>
+                <h4>-> Barry McCarthy</h4>
+                <h4>-> Paul Stirling</h4>
+                <h4>-> Harry Tector</h4>
+                <h4>-> Lorcan Tucker</h4>
+                <h4>Ben White</h4>
+            </div>
+            <button class="butn" onclick="display('sectionIre')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionZimop">
+        <div class="team-info-zim">
+            <div class="box">
+                <h1>Overall players</h1>
+                <h4>-> Craig Ervine</h4>
+                <h4>-> Gary Ballance</h4>
+                <h4>-> Ryan Burl</h4>
+                <h4>-> Tendai Chatara</h4>
+                <h4>-> Brad Evans </h4>
+                <h4>-> Luke Jongwe</h4>
+                <h4>-> Innocent Kaia</h4>
+                <h4>-> Clive Madande</h4>
+                <h4>-> Wessly Madhevere</h4>
+                <h4>-> Tadiwanashe Macrumani</h4>
+                <h4>-> Wellington Masakadza</h4>
+                <h4>-> Tony Munyonga</h4>
+                <h4>-> Richard Ngarava </h4>
+                <h4>-> Victor Nyauchi</h4>
+                <h4>-> Sean Williams</h4>
+            </div>
+            <button class="butn" onclick="display('sectionZim')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionInde">
+        <div class="team-info-ind">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4> Rohit Sharma</h4>
+                <h4> Shikhar Dhawan</h4>
+                <h4> Virat Kohli</h4>
+                <h4>Shersys Iyer</h4>
+                <h4>Rishabh Pant</h4>
+                <h4>Hardik Pandya</h4>
+                <h4>Ravindra Jadeja</h4>
+                <h4>Yuzendra Chahal</h4>
+                <h4>Mohummad Shami</h4>
+                <h4>Bhuneswar Kumar</h4>
+                <h4>Jasprit Bumrah</h4>
+            </div>
+            <button class="butn" onclick="display('sectionInd')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionAuse">
+        <div class="team-info-aus">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>David warner</h4>
+                <h4>Aaron Finch</h4>
+                <h4>Steve Smith</h4>
+                <h4>Marnus Labuschagne</h4>
+                <h4>Glenn Maxwell </h4>
+                <h4>Alex Carey</h4>
+                <h4>Cameron Green </h4>
+                <h4>Josh Hazlewood</h4>
+                <h4>Pat Cummins</h4>
+                <h4>Zampa</h4>
+                <h4>Mitchell Starc </h4>
+            </div>
+            <button class="butn" onclick="display('sectionAus')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionEnge">
+        <div class="team-info-eng">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Jason Roy</h4>
+                <h4>Jonny Bairstow</h4>
+                <h4>David Malan</h4>
+                <h4>Josh Butler</h4>
+                <h4>Ben stokes</h4>
+                <h4>Mohin Ali</h4>
+                <h4>Sam Curran</h4>
+                <h4>Laim Livingston</h4>
+                <h4>Jofra Archer</h4>
+                <h4>Mark Wood</h4>
+                <h4>David Willey</h4>
+            </div>
+            <button class="butn" onclick="display('sectionEng')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionPake">
+        <div class="team-info-pak">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Babar Azam</h4>
+                <h4>Imam ul Huq</h4>
+                <h4>Fakhar Zaman</h4>
+                <h4>Haidar Ali</h4>
+                <h4>Ashif Ali</h4>
+                <h4>Moh Rizwan</h4>
+                <h4>Shadab Khan</h4>
+                <h4>Khusdil Shah</h4>
+                <h4>Naseem Shah</h4>
+                <h4>Haris Rouf</h4>
+                <h4>Shaheen Afraidi</h4>
+            </div>
+            <button class="butn" onclick="display('sectionPak')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionNewe">
+        <div class="team-info-new">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Deven conway</h4>
+                <h4>Finn Allen</h4>
+                <h4>Kane Williamson</h4>
+                <h4>Tom latham</h4>
+                <h4>Glenn Phillips</h4>
+                <h4>Daryl Mitchell</h4>
+                <h4>Mitchell Sentner</h4>
+                <h4>Ish Sodhi</h4>
+                <h4>Tim southee</h4>
+                <h4>Trent Boult</h4>
+                <h4>Lockie Ferguson</h4>
+            </div>
+            <button class="butn" onclick="display('sectionNew')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSrie">
+        <div class="team-info-sri">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Charith Asalanka</h4>
+                <h4>Pathum Nissanka</h4>
+                <h4>Kushal Mendis</h4>
+                <h4>Dhananjaya de silva</h4>
+                <h4>Bhanuka Rajapaksa</h4>
+                <h4>Dasun Shanaka</h4>
+                <h4>Wanindu Hasaranga</h4>
+                <h4>Chamika Karunaratne</h4>
+                <h4>Dushmantha Chameera</h4>
+                <h4>Kasun Rajitha</h4>
+                <h4>Lahiru Kumara</h4>
+            </div>
+            <button class="butn" onclick="display('sectionSri')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionAfge">
+        <div class="team-info-afgha">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Hazratullah Zazai </h4>
+                <h4>Rahmanullah Gurbaz</h4>
+                <h4>Gulbadin Naib </h4>
+                <h4>Najibullah Zadran </h4>
+                <h4>Mohammad Nabi</h4>
+                <h4>Karim Janat </h4>
+                <h4>Rashid Khan </h4>
+                <h4>Mujeeb ur Rahman </h4>
+                <h4>Naveen ul Haq</h4>
+                <h4>Samiullah Shinwari </h4>
+                <h4>Fazal Haq Farooqi</h4>
+            </div>
+            <button class="butn" onclick="display('sectionAfg')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionBange">
+        <div class="team-info-bang">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Litton Das</h4>
+                <h4>Nazmul Hossain</h4>
+                <h4>Soumya Sarkar</h4>
+                <h4>Shakib Al Hasan</h4>
+                <h4>Mushfiqur Rahim</h4>
+                <h4>Mahmudullah</h4>
+                <h4>Mehidy Hasan</h4>
+                <h4>Mohummad Saifuddin</h4>
+                <h4>Taskin Ahmed</h4>
+                <h4>Mustafizur Rahman</h4>
+                <h4>Ebadot Hossain</h4>
+            </div>
+            <button class="butn" onclick="display('sectionBang')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSoute">
+        <div class="team-info-sout">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Quinton de Kock</h4>
+                <h4>J Malan</h4>
+                <h4>Temba Bavuma</h4>
+                <h4>Aiden Markram</h4>
+                <h4>R v Duseen</h4>
+                <h4>David Miller</h4>
+                <h4>Keshav Maharaj</h4>
+                <h4>Macro Jansen</h4>
+                <h4>Kagisco Rabada</h4>
+                <h4>Anrich Nortje</h4>
+                <h4>Tabraiz Shamsi</h4>
+            </div>
+            <button class="butn" onclick="display('sectionSout')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionWeste">
+        <div class="team-info-west">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Kyle Mayers</h4>
+                <h4>Brandon King</h4>
+                <h4>Shai Hope</h4>
+                <h4>Nicoles pooran</h4>
+                <h4>Shemran Hetmayer</h4>
+                <h4>Rovman Powell</h4>
+                <h4>Jason Holder</h4>
+                <h4>Akeal Hosein</h4>
+                <h4>Alzari Joseph</h4>
+                <h4>Obed Mccoy</h4>
+                <h4>Sheldon Cottrell</h4>
+            </div>
+            <button class="butn" onclick="display('sectionWest')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionIree">
+        <div class="team-info-ire">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Paul Stirling</h4>
+                <h4>Andy Balbirnie</h4>
+                <h4>Lorcan Tucker</h4>
+                <h4>Harry Tector</h4>
+                <h4>Curtis Campherr</h4>
+                <h4>George Dockrell</h4>
+                <h4>Tyrone Kane</h4>
+                <h4>Barry McCarthy</h4>
+                <h4>Mark Adair</h4>
+                <h4>Barry McCarthy</h4>
+                <h4>Josh Little</h4>
+            </div>
+            <button class="butn" onclick="display('sectionIre')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionZime">
+        <div class="team-info-zim">
+            <div class="box1">
+                <h1>My playing Eleven</h1>
+                <h4>Innocent Kaia</h4>
+                <h4>Tadiwanashe Macrumani</h4>
+                <h4>Craig Ervine</h4>
+                <h4>Wessly Madhevere</h4>
+                <h4>Tony Munyonga</h4>
+                <h4>Ryan Burl</h4>
+                <h4>Clive Madande</h4>
+                <h4>Luke Jongwe</h4>
+                <h4>Sikadar Raja</h4>
+                <h4>Wellington Masakadza</h4>
+                <h4>Richard Ngarava</h4>
+            </div>
+            <button class="butn" onclick="display('sectionZim')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
